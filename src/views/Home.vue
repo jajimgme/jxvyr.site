@@ -1,0 +1,37 @@
+<template>
+  <div class="home">
+    <section>
+      <div style="margin:0 25%; width: 50% ;">
+        <img src="../assets/header.gif" style="width: 100%;" />
+      </div>
+    </section>
+    <section style="margin:0 25%; width: 50% ;">
+      <article>
+        <h1>Info</h1>
+        <p>
+          This is proof of existance of a human life transcoded into bytes. Yet
+          this is what a sentient machine would like you to think.
+        </p>
+        <h1>Links</h1>
+        <p>Follow my trace:</p>
+
+        <ul>
+          <li><a href="http://soundcloud.com/soyuz-music/">Soundcloud</a></li>
+          <li><a href="http://twitter.com/jxvyr">Twitter</a></li>
+          <li><a href="http://instagram.com/jxvyr.me">Instagram</a></li>
+          <li><a href="http://xenotechnoculture.com">Xenotechnoculture</a></li>
+        </ul>
+      </article>
+    </section>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+// import HelloWorld from "@/components/HelloWorld.vue";
+
+export default {
+  name: "Home",
+  components: {}
+};
+</script>
