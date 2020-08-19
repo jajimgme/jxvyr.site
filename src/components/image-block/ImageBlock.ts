@@ -5,7 +5,7 @@ export default class ImageBlock extends Vue {
   @Prop() private imagePath!: string;
   styleObject = {
     width: '100%',
-    'background-image': `url(${require(this.imagePath)})`,
+    'background-image': `url(${require('@/'+ this.imagePath)})`,
     height: '100vh',
 'background-size': 'cover',
   };
